@@ -1,0 +1,18 @@
+{
+  "comment": "This is an auto-generated file, it keeps track of whats been built. This is a local file, don't store this in version control.",
+  "packages": {
+    "packages/core#build": {
+      "checksum": "54f100418dc961bb0cda26f649af8f6f7942cbb1",
+      "status": "succeeded",
+      "rerun": false,
+      "command": "build"
+    },
+    "packages/employee#build": {
+      "checksum": "0be8ee0098667e8318c74202810d622a1e60f25f",
+      "status": "succeeded",
+      "rerun": false,
+      "command": "build",
+      "exitCode": "1"
+    }
+  }
+}

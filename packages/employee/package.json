@@ -1,0 +1,38 @@
+{
+  "version": "0.0.0",
+  "author": {
+    "email": "amit.prakash.ambasta@gmail.com",
+    "name": "Amit Ambasta",
+    "url": "https://github.com/ambasta"
+  },
+  "bugs": "https://github.com/delhivery/nestmikrorepro/issues",
+  "devDependencies": {
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "yarn": ">=4.0.0-rc.32"
+  },
+  "homepage": "https://github.com/delhivery/nestmikrorepro",
+  "license": "UNLICENSED",
+  "main": "dist/src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delhivery/nestmikrorepro"
+  },
+  "scripts": {
+    "build": "yarn tsc -p tsconfig.build.json"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "name": "@nestmikrorepro/employee",
+  "packageManager": "yarn@4.0.0-rc.34",
+  "dependencies": {
+    "@mikro-orm/core": "^5.6.3",
+    "@mikro-orm/nestjs": "^5.1.5",
+    "@nestjs/common": "^9.2.1",
+    "@nestjs/core": "^9.2.1",
+    "@nestjs/platform-fastify": "^9.2.1",
+    "@nestmikrorepro/core": "workspace:^"
+  }
+}

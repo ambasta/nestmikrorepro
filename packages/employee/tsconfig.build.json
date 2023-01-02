@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "incremental": false,
+    "outDir": "./dist",
+    "rootDir": "."
+  },
+  "extends": "../../tsconfig.build.json",
+  "include": [
+    "package.json",
+    "src"
+  ]
+}

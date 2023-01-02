@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "rootDir": "."
+  },
+  "extends": "./tsconfig.build.json",
+  "include": [
+    "package.json",
+    "src",
+    "test"
+  ]
+}
