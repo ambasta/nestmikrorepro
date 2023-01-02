@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/delhivery/nestmikrorepro",
   "license": "UNLICENSED",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/delhivery/nestmikrorepro"

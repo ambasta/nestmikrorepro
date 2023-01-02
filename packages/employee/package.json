@@ -21,10 +21,11 @@
     "url": "https://github.com/delhivery/nestmikrorepro"
   },
   "scripts": {
-    "build": "yarn tsc -p tsconfig.build.json"
+    "build": "yarn tsc -p tsconfig.build.json",
+    "serve": "yarn node dist/src/main.js"
   },
   "type": "module",
-  "types": "dist/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "name": "@nestmikrorepro/employee",
   "packageManager": "yarn@4.0.0-rc.34",
   "dependencies": {

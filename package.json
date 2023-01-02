@@ -55,6 +55,7 @@
   "sideEffects": false,
   "scripts": {
     "updog": "yarn up '**'",
+    "serve": "yarn build -r && yarn workspace @nestmikrorepro/employee serve",
     "postinstall": "yarn husky install"
   },
   "type": "module",

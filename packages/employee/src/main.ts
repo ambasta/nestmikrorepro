@@ -2,7 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import type { NestFastifyApplication } from '@nestjs/platform-fastify';
 import { FastifyAdapter } from '@nestjs/platform-fastify';
 
-import { EmployeeModule } from './employee.module';
+import { EmployeeModule } from './employee.module.js';
 
 
 export const bootstrap = async () => {
